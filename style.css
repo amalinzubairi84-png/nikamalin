@@ -1,0 +1,89 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+    color: #333;
+}
+
+header {
+    background: #a52a2a;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.search {
+    text-align: center;
+    margin: 30px;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 12px 20px;
+    background: #a52a2a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #751b1b;
+}
+
+.categories, main {
+    padding: 20px;
+    text-align: center;
+}
+
+#categoryList {
+    margin: 20px;
+}
+
+.recipe-container {
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.recipe-card {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 3px 10px #ddd;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.recipe-card h3 {
+    margin: 12px;
+}
+
+.recipe-card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #a52a2a;
+    text-decoration: none;
+    font-weight: bold;
+}
